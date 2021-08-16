@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "supervisor": "supervisor app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "http-error-handler": "^0.3.1",
+    "http-errors": "^1.8.0",
+    "mongoose": "^5.13.7",
+    "supervisor": "^0.12.0"
+  }
+}
