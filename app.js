@@ -2,7 +2,6 @@ const express = require ('express')
 const cors = require('cors')
 const app = express()
 require('dotenv').config()
-const createError = require('http-errors')
 const connectDB = require ('./Mongodb')
 
 const hotelRouter = require('./Routes/HotelRoute')
